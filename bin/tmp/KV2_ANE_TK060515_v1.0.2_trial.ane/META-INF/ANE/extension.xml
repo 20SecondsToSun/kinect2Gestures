@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension xmlns="http://ns.adobe.com/air/extension/17.0">
+	<id>com.tastenkunst.airkinectv2</id>
+	<versionNumber>1.0.2</versionNumber>
+ 	
+ 	<platforms>
+		<platform name="Windows-x86">
+			<applicationDeployment>
+				<nativeLibrary>AIRKinectv2.dll</nativeLibrary>
+				<initializer>AIRKinectv2ExtInitializer</initializer>
+				<finalizer>AIRKinectv2ExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+	</platforms>
+</extension>

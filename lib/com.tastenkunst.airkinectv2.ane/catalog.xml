@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <compiler name="ActionScript Compiler" version="2.0.0" build="354145"/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="com/tastenkunst/airkinectv2/KV2Body" mod="1430926737437">
+                <def id="com.tastenkunst.airkinectv2:KV2Body"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Number" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.tastenkunst.airkinectv2:KV2Joint" type="s"/>
+                <dep id="int" type="s"/>
+                <dep id="uint" type="s"/>
+            </script>
+            <script name="com/tastenkunst/airkinectv2/KV2Code" mod="1425223579861">
+                <def id="com.tastenkunst.airkinectv2:KV2Code"/>
+                <dep id="Object" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/tastenkunst/airkinectv2/KV2Config" mod="1429794457809">
+                <def id="com.tastenkunst.airkinectv2:KV2Config"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="uint" type="s"/>
+            </script>
+            <script name="com/tastenkunst/airkinectv2/KV2Joint" mod="1425222162733">
+                <def id="com.tastenkunst.airkinectv2:KV2Joint"/>
+                <dep id="Object" type="i"/>
+                <dep id="flash.geom:Point" type="s"/>
+                <dep id="flash.geom:Vector3D" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/tastenkunst/airkinectv2/KV2Manager" mod="1430927062322">
+                <def id="com.tastenkunst.airkinectv2:KV2Manager"/>
+                <dep id="Function" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.tastenkunst.airkinectv2:KV2Body" type="s"/>
+                <dep id="com.tastenkunst.airkinectv2:KV2Code" type="e"/>
+                <dep id="com.tastenkunst.airkinectv2:KV2Config" type="s"/>
+                <dep id="flash.display:BitmapData" type="s"/>
+                <dep id="flash.events:StatusEvent" type="s"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="flash.geom:Rectangle" type="s"/>
+                <dep id="int" type="e"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="3a7da9ab07f328dd17da0312e82caebd9b9692bcf70cc5a9434a590af672d43d"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>
